@@ -1,0 +1,91 @@
+section.presentation {
+  background-color: #007EA7;
+}
+
+section.presentation h2{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+section.presentation .moi{
+  display: flex;
+  flex-direction: row;
+}
+section.presentation .moi .photo{
+  width: 35vw;
+  margin-left: 5%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+section.presentation .moi .photo img {
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  height: 90%;
+  width: auto;
+  border: 15px;
+  border-color: #00171F;
+  border-style: solid;
+}
+section.presentation .moi .presentation{
+    height: 50vh;
+  width: 40vw;
+  padding: 35px;
+  overflow: hidden;
+}
+
+
+section.presentation .moi .presentation h6{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+section.presentation .moi .presentation .logo-types {
+  margin-top: 75px;
+ }
+
+section.presentation .moi .presentation .logo {
+  height: 40px;
+  width:auto;
+  padding: 8px;
+  border-style: solid;
+  text-decoration: none;
+  border-color:#00171F;
+}
+section.presentation .moi .presentation .logo:hover {
+  background-color: #00A0DC;
+}
+section.presentation .moi .presentation .lienMoi {
+    margin-top: 75px;
+}
+section.presentation .moi .presentation .CV a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    padding: 10px;
+}
+section.presentation .moi .presentation .CV a:hover {
+    background-color: black;
+}
+@media only screen and (max-width:1000px){
+    section.presentation .moi .presentation .lienMoi {
+        display: flex;
+        flex-direction: row;
+        margin-top: 25px;
+    }
+    section.presentation .moi .presentation .logo-types{
+        margin-top: 0px;
+    }
+    section.presentation .moi .presentation .lienMoi .CV{
+        margin-top: 10px;
+        margin-right: 15px;
+    }
+}

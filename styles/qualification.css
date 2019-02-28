@@ -1,0 +1,74 @@
+section.qualification{
+    width: 100vw;
+    background-color: #00A8E8;
+}
+
+section.qualification .titre h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+
+section.qualification .contenu{
+    display: flex;
+    flex-direction: row;
+}
+
+section.qualification .contenu .carre{
+    height: auto;
+    width: 20vw;
+    max-width: 250px;
+    margin-left: 15vw;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+section.qualification .contenu .carre h3{
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+section.qualification .contenu .carre h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5%;
+    /* margin-bottom: 15%; */
+}
+section.qualification .content-imp{
+    padding-bottom: 75px;
+}
+section.qualification .contenu .principal{
+    width: 50vw;
+}
+
+section.qualification .contenu .principal h3{
+    font-size: 20px;
+    padding: 40px 0px 15px 30px;
+}
+
+section.qualification .contenu .principal p{
+    padding-left: 30px;
+}
+section.qualification .content-imp .contenu .principal.gauche {
+    margin-left: 15vw;
+    width: 48.5vw;
+}
+section.qualification .content-imp .contenu .principal.gauche h3 {
+    padding-left: 0;
+}
+section.qualification .content-imp .contenu .principal.gauche p {
+    padding-left: 0;
+}
+section.qualification .content-imp .contenu .carre.droite{
+    margin: 0;
+}
+@media only screen and (max-width:1000px){
+    section.qualification .contenu .carre h3 span {
+        display: block;
+    }
+}

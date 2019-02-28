@@ -1,0 +1,43 @@
+/* section.competence  */
+section.competence {
+    background-color: #00A8E8;
+}
+section.competence .skills {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+}
+
+section.competence .skills h1 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+section.competence .skills .container{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+section.competence .skills .container .chart{
+    position: relative;
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+section.competence .skills .container .chart span{
+    position: relative;
+    top: 50%;
+    color: white;
+}
+section.competence .skills .container .chart canvas {
+
+}
