@@ -48,7 +48,8 @@ section.presentation .moi .presentation h6{
 }
 
 section.presentation .moi .presentation .logo-types {
-  margin-top: 75px;
+  /* margin-top: 75px; */
+  margin-left: 5%;
  }
 
 section.presentation .moi .presentation .logo {
@@ -63,7 +64,13 @@ section.presentation .moi .presentation .logo:hover {
   background-color: #00A0DC;
 }
 section.presentation .moi .presentation .lienMoi {
-    margin-top: 75px;
+    margin-top: 25px;
+    display:flex;
+    flex-direction: row;
+}
+
+section.presentation .moi .presentation .CV {
+    margin-top: 10px;
 }
 section.presentation .moi .presentation .CV a{
     margin-top: 10px;
