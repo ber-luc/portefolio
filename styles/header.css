@@ -43,7 +43,7 @@
   flex-wrap: nowrap;
 }
 .menu ul:first-child{
-  margin-left: 15%;
+  margin-left: 10%;
 }
 .menu ul li{
   padding: 40px 2vw 40px 2vw;
